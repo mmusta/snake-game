@@ -166,7 +166,7 @@ const startGame = () => {
 
   renderId = setInterval(() => {
     render({ snake, directionVector, history, renderId, foodRefreshId });
-  }, 300);
+  }, 400);
 };
 
 startGame();
